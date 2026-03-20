@@ -3945,7 +3945,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Login credentials and new menu item details",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3959,16 +3959,210 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Login credentials and new menu item details"
             ],
-            "id": "79c50ce2-6834-4a96-87a3-ad561691ae56",
+            "id": "b85202cf-0d6a-41ee-a573-3b87362dacc1",
             "source": {
-              "x": 310,
-              "y": 370
+              "cell": "685687ac-68a7-4a93-8d2c-ef1f27036116",
+              "port": "187a0be9-c790-4f52-a1c5-8b901adfb384"
             },
             "target": {
-              "x": 410,
-              "y": 470
+              "cell": "2117012c-de60-4e39-9e32-5b204ee09144",
+              "port": "8b02169f-5b63-4eec-98d1-36fc212ac1c4"
+            },
+            "vertices": [
+              {
+                "x": 230,
+                "y": 310
+              },
+              {
+                "x": 360,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validated and authorized menu item data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Validated and authorized menu item data"
+            ],
+            "id": "1c3f8c41-4287-4039-aee8-196ff8978739",
+            "source": {
+              "cell": "2117012c-de60-4e39-9e32-5b204ee09144",
+              "port": "83086979-4abd-41dc-9741-9014d230614f"
+            },
+            "target": {
+              "cell": "8538b433-6830-4c1e-9d00-acb722535a43",
+              "port": "46f7b07b-eda1-48de-ad2d-ec8b7a173462"
+            },
+            "vertices": [
+              {
+                "x": 1050,
+                "y": 30
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Menu item creation result",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Menu item creation result"
+            ],
+            "id": "1d93e7d5-2637-4b34-9db0-821e15db6e99",
+            "source": {
+              "cell": "8538b433-6830-4c1e-9d00-acb722535a43",
+              "port": "46f7b07b-eda1-48de-ad2d-ec8b7a173462"
+            },
+            "target": {
+              "cell": "2117012c-de60-4e39-9e32-5b204ee09144",
+              "port": "83086979-4abd-41dc-9741-9014d230614f"
+            },
+            "vertices": [
+              {
+                "x": 1030,
+                "y": 360
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           }
         ]
