@@ -31,8 +31,8 @@
                 "text": "Customer"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -129,9 +129,53 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "deb94a1c-567a-41e7-9b2e-e0d8e1208f53",
+                  "title": "customer account spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": ""
+                },
+                {
+                  "id": "fa9cbca7-ab96-47a7-94fb-61152dc6e0ca",
+                  "title": "staff account spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": ""
+                },
+                {
+                  "id": "6dde2739-0b2c-498e-b7bd-95034e221eab",
+                  "title": "web application server spoofing",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 30,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 3,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -628,11 +672,13 @@
                 "text": "MongoDB Database"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -729,13 +775,137 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "69117d35-f73f-4e58-889f-ea3432b1fd7a",
+                  "title": "Order Data tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
+                },
+                {
+                  "id": "f30e6ebc-7f3e-4452-99e0-f90606092eb8",
+                  "title": "Menu Data Tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "ce2696b8-e8c7-4116-acb7-5941b883b83d",
+                  "title": "Sales Report tampering",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
+                },
+                {
+                  "id": "729feeb8-d803-4d31-8f0b-fc9a4e302039",
+                  "title": "Order repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 22,
+                  "score": ""
+                },
+                {
+                  "id": "baeee11b-97d1-4894-83c9-0b11de91621c",
+                  "title": "staff action repudiation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "score": ""
+                },
+                {
+                  "id": "aa48b1cb-681e-4cf0-9611-7a8ddd43c1a3",
+                  "title": "Customer data disclosure",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 24,
+                  "score": ""
+                },
+                {
+                  "id": "50525b2a-db3d-41ed-bca1-19dd79ef61a3",
+                  "title": "Staff Credential Disclosure",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 25,
+                  "score": ""
+                },
+                {
+                  "id": "2ba7f149-da78-4a7c-86a6-c8b03c8970ad",
+                  "title": "sales data disclosure",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 26,
+                  "score": ""
+                },
+                {
+                  "id": "7a6b76dd-19a1-4fc2-9f61-2efb09621554",
+                  "title": "Database DoS",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Denial of service",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 27,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 2,
+                "repudiation": 2,
+                "informationDisclosure": 4,
+                "denialOfService": 1
+              }
             }
           },
           {
@@ -1188,6 +1358,6 @@
     ],
     "diagramTop": 4,
     "reviewer": "",
-    "threatTop": 18
+    "threatTop": 30
   }
 }
