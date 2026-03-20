@@ -1744,8 +1744,8 @@
             },
             "vertices": [
               {
-                "x": 550,
-                "y": 196
+                "x": 610,
+                "y": 50
               }
             ]
           },
@@ -1850,6 +1850,58 @@
               {
                 "x": 1270,
                 "y": 380
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Order list",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Order list"
+            ],
+            "id": "cad69250-5772-4740-84a3-0e7a1f3fd69f",
+            "source": {
+              "cell": "866280d8-a246-47ec-adb9-bbdb4e49129d",
+              "port": "7f4b53aa-71cd-4aa0-af3f-0015334063f9"
+            },
+            "target": {
+              "cell": "24972bc6-2ac2-4787-a860-5700d9699c2f",
+              "port": "01316191-697c-4fa5-a554-8f7d65f4954d"
+            },
+            "vertices": [
+              {
+                "x": 600,
+                "y": 370
               }
             ]
           }
