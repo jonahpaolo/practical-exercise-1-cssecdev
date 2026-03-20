@@ -3041,7 +3041,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Processed basic sales report",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -3055,7 +3055,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Processed basic sales report"
             ],
             "id": "7270f144-4485-4408-ae6b-ed769ad77033",
             "source": {
