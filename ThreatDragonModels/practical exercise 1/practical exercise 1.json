@@ -1956,6 +1956,92 @@
                 "y": 140
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validated order status update",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Validated order status update"
+            ],
+            "id": "7025bb9b-2a8b-410e-b83e-5e3ae1102a4a",
+            "source": {
+              "x": 1060,
+              "y": 210
+            },
+            "target": {
+              "cell": "7e8501bd-9977-4bfd-832b-726634297d4a",
+              "port": "6ace2f05-134a-45e0-9937-900bcab22896"
+            },
+            "vertices": [
+              {
+                "x": 1250,
+                "y": 150
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "88732c84-f3cd-466b-9e50-964302f189cf",
+            "source": {
+              "x": 570,
+              "y": 10
+            },
+            "target": {
+              "x": 610,
+              "y": 440
+            },
+            "vertices": [
+              {
+                "x": 540,
+                "y": 230
+              }
+            ]
           }
         ]
       },
