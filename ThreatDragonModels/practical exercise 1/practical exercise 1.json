@@ -253,7 +253,7 @@
           },
           {
             "position": {
-              "x": 850,
+              "x": 860,
               "y": 20
             },
             "size": {
@@ -373,12 +373,12 @@
           },
           {
             "position": {
-              "x": 1480,
-              "y": 70
+              "x": 1440,
+              "y": 90
             },
             "size": {
-              "width": 170,
-              "height": 110
+              "width": 120,
+              "height": 60
             },
             "attrs": {
               "text": {
@@ -641,7 +641,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Tokenized payment information",
+              "name": "Payment transaction response",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -655,21 +655,21 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Tokenized payment information"
+              "Payment transaction response"
             ],
-            "id": "ea4ee6ab-9a7b-473f-a871-f6ddc3222acc",
+            "id": "fe3f8f5f-9220-497f-b572-97b2ec1d7b65",
             "source": {
-              "x": 960,
-              "y": 250
-            },
-            "target": {
               "cell": "b2bb86c4-6d34-495d-a9cf-5432c2f95b96",
               "port": "a2492682-0315-4c18-a5d1-9b4e44aa8290"
             },
+            "target": {
+              "cell": "ac7519de-bb33-4685-aa70-aadb4abd6e98",
+              "port": "5dbc0521-98f6-4b60-bc69-a5aa1a7f74f5"
+            },
             "vertices": [
               {
-                "x": 720,
-                "y": 350
+                "x": 1020,
+                "y": 320
               }
             ]
           },
@@ -693,7 +693,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Tokenized payment information",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -707,29 +707,21 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Tokenized payment information"
             ],
-            "id": "c66da3ed-7a77-492c-8710-4e137d671bde",
+            "id": "ea4ee6ab-9a7b-473f-a871-f6ddc3222acc",
             "source": {
-              "cell": "b2bb86c4-6d34-495d-a9cf-5432c2f95b96",
-              "port": "a2492682-0315-4c18-a5d1-9b4e44aa8290"
-            },
-            "target": {
               "cell": "ac7519de-bb33-4685-aa70-aadb4abd6e98",
               "port": "5dbc0521-98f6-4b60-bc69-a5aa1a7f74f5"
             },
+            "target": {
+              "cell": "b2bb86c4-6d34-495d-a9cf-5432c2f95b96",
+              "port": "a2492682-0315-4c18-a5d1-9b4e44aa8290"
+            },
             "vertices": [
               {
-                "x": 1190,
-                "y": 390
-              },
-              {
-                "x": 1210,
-                "y": 420
-              },
-              {
-                "x": 1230,
-                "y": 360
+                "x": 720,
+                "y": 350
               }
             ]
           }
