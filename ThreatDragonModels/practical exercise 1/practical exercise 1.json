@@ -2623,8 +2623,8 @@
           },
           {
             "position": {
-              "x": 770.9999999999999,
-              "y": 155
+              "x": 650,
+              "y": 350
             },
             "size": {
               "width": 190,
@@ -2983,7 +2983,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Aggregated sales data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2997,12 +2997,12 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Aggregated sales data"
             ],
             "id": "6f2371d7-190f-4c6e-b6fd-40e959119b1e",
             "source": {
-              "x": 1450,
-              "y": 270
+              "x": 1440,
+              "y": 280
             },
             "target": {
               "cell": "919ed305-7b6b-4cbe-b84a-ba0aa71aa6d9",
