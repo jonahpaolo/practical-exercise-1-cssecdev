@@ -253,11 +253,11 @@
           },
           {
             "position": {
-              "x": 652,
-              "y": 20.000000000000227
+              "x": 850,
+              "y": 20
             },
             "size": {
-              "width": 290,
+              "width": 230,
               "height": 230
             },
             "attrs": {
@@ -373,7 +373,7 @@
           },
           {
             "position": {
-              "x": 1250,
+              "x": 1480,
               "y": 70
             },
             "size": {
@@ -381,6 +381,9 @@
               "height": 110
             },
             "attrs": {
+              "text": {
+                "text": "MongoDB Database"
+              },
               "topLine": {
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
@@ -478,7 +481,7 @@
             "zIndex": 4,
             "data": {
               "type": "tm.Store",
-              "name": "Store",
+              "name": "MongoDB Database",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -490,11 +493,130 @@
               "storesCredentials": false,
               "storesInventory": false,
               "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Order details (items, quantity, customization)",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Order details (items, quantity, customization)"
+            ],
+            "id": "1d860d61-7738-43ad-a449-eed253400d52",
+            "source": {
+              "x": 413,
+              "y": 166
+            },
+            "target": {
+              "cell": "ac7519de-bb33-4685-aa70-aadb4abd6e98",
+              "port": "9db36726-57cf-440e-a6c9-6ce46e4cc0a0"
             },
             "tools": {
               "items": [
                 "boundary",
-                "button-remove"
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
               ],
               "name": null
             }
