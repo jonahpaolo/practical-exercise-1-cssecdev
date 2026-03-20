@@ -3585,6 +3585,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -3668,7 +3669,6 @@
               ]
             },
             "id": "685687ac-68a7-4a93-8d2c-ef1f27036116",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Administrator",
@@ -3702,6 +3702,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -3785,7 +3786,6 @@
               ]
             },
             "id": "2117012c-de60-4e39-9e32-5b204ee09144",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web Application Server",
@@ -3825,6 +3825,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -3908,7 +3909,6 @@
               ]
             },
             "id": "8538b433-6830-4c1e-9d00-acb722535a43",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB Database",
@@ -4078,12 +4078,6 @@
               "cell": "2117012c-de60-4e39-9e32-5b204ee09144",
               "port": "83086979-4abd-41dc-9741-9014d230614f"
             },
-            "vertices": [
-              {
-                "x": 1030,
-                "y": 360
-              }
-            ],
             "tools": {
               "items": [
                 "boundary",
@@ -4163,7 +4157,13 @@
                 "target-arrowhead"
               ],
               "name": null
-            }
+            },
+            "vertices": [
+              {
+                "x": 1030,
+                "y": 360
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -4185,7 +4185,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Confirmation of successful menu item addition",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -4199,16 +4199,32 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Confirmation of successful menu item addition"
             ],
             "id": "032ea1df-9957-408f-8e20-8073be467404",
             "source": {
-              "x": 450,
-              "y": 160
+              "cell": "2117012c-de60-4e39-9e32-5b204ee09144",
+              "port": "8b02169f-5b63-4eec-98d1-36fc212ac1c4"
             },
             "target": {
               "cell": "685687ac-68a7-4a93-8d2c-ef1f27036116",
               "port": "187a0be9-c790-4f52-a1c5-8b901adfb384"
+            },
+            "vertices": [
+              {
+                "x": 320,
+                "y": 50
+              }
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           }
         ]
