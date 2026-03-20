@@ -2743,7 +2743,7 @@
           },
           {
             "position": {
-              "x": 1400,
+              "x": 1460,
               "y": 240
             },
             "size": {
@@ -2931,7 +2931,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Query aggregated sales data",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2945,7 +2945,7 @@
               "trustBoundaryIds": []
             },
             "labels": [
-              "Data Flow"
+              "Query aggregated sales data"
             ],
             "id": "b3fcf294-2b96-423c-aa88-3038714d77af",
             "source": {
@@ -2958,6 +2958,16 @@
             },
             "tools": {
               "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
                 "boundary",
                 "button-remove",
                 "vertices",
