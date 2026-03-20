@@ -2885,6 +2885,52 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
+              "name": "Login credentials and request for basic sales reports",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Login credentials and request for basic sales reports"
+            ],
+            "id": "b1ac83ff-a7da-4558-ba31-9feff6e98e41",
+            "source": {
+              "cell": "83090897-6bc1-437b-854e-061a39521a3c",
+              "port": "da1aa67e-3217-434e-971a-2857fab82273"
+            },
+            "target": {
+              "cell": "919ed305-7b6b-4cbe-b84a-ba0aa71aa6d9",
+              "port": "45c7e537-fbbc-456a-94e5-5d43a0600f80"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
               "name": "Data Flow",
               "description": "",
               "outOfScope": false,
@@ -2901,14 +2947,34 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "b1ac83ff-a7da-4558-ba31-9feff6e98e41",
+            "id": "b3fcf294-2b96-423c-aa88-3038714d77af",
             "source": {
-              "cell": "83090897-6bc1-437b-854e-061a39521a3c",
-              "port": "da1aa67e-3217-434e-971a-2857fab82273"
+              "x": 970,
+              "y": 270
             },
             "target": {
-              "cell": "919ed305-7b6b-4cbe-b84a-ba0aa71aa6d9",
-              "port": "45c7e537-fbbc-456a-94e5-5d43a0600f80"
+              "cell": "9984ba1e-8146-4dbd-bfee-380a0f3c6aba",
+              "port": "0a4b95bc-1f63-4a4f-a8cc-6c739378d3d0"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           }
         ]
