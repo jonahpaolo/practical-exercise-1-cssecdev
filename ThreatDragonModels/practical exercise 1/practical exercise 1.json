@@ -2525,6 +2525,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -2608,7 +2609,6 @@
               ]
             },
             "id": "83090897-6bc1-437b-854e-061a39521a3c",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "Manager",
@@ -2623,8 +2623,8 @@
           },
           {
             "position": {
-              "x": 650,
-              "y": 350
+              "x": 720,
+              "y": 155
             },
             "size": {
               "width": 190,
@@ -2642,6 +2642,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -2725,7 +2726,6 @@
               ]
             },
             "id": "919ed305-7b6b-4cbe-b84a-ba0aa71aa6d9",
-            "zIndex": 2,
             "data": {
               "type": "tm.Process",
               "name": "Web Application Server",
@@ -2765,6 +2765,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -2848,7 +2849,6 @@
               ]
             },
             "id": "9984ba1e-8146-4dbd-bfee-380a0f3c6aba",
-            "zIndex": 3,
             "data": {
               "type": "tm.Store",
               "name": "MongoDB Database",
@@ -2909,56 +2909,10 @@
             "target": {
               "cell": "919ed305-7b6b-4cbe-b84a-ba0aa71aa6d9",
               "port": "45c7e537-fbbc-456a-94e5-5d43a0600f80"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Query aggregated sales data",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Query aggregated sales data"
-            ],
-            "id": "b3fcf294-2b96-423c-aa88-3038714d77af",
-            "source": {
-              "x": 970,
-              "y": 270
-            },
-            "target": {
-              "cell": "9984ba1e-8146-4dbd-bfee-380a0f3c6aba",
-              "port": "0a4b95bc-1f63-4a4f-a8cc-6c739378d3d0"
             },
             "vertices": [
               {
-                "x": 1210,
+                "x": 500,
                 "y": 130
               }
             ]
@@ -3001,12 +2955,116 @@
             ],
             "id": "6f2371d7-190f-4c6e-b6fd-40e959119b1e",
             "source": {
-              "x": 1440,
-              "y": 280
+              "cell": "9984ba1e-8146-4dbd-bfee-380a0f3c6aba",
+              "port": "0a4b95bc-1f63-4a4f-a8cc-6c739378d3d0"
             },
             "target": {
               "cell": "919ed305-7b6b-4cbe-b84a-ba0aa71aa6d9",
               "port": "c903b7a7-c8eb-4003-9edc-4bbdd141f421"
+            },
+            "vertices": [
+              {
+                "x": 1220,
+                "y": 460
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Query aggregated sales data",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Query aggregated sales data"
+            ],
+            "id": "b3fcf294-2b96-423c-aa88-3038714d77af",
+            "source": {
+              "cell": "919ed305-7b6b-4cbe-b84a-ba0aa71aa6d9",
+              "port": "c903b7a7-c8eb-4003-9edc-4bbdd141f421"
+            },
+            "target": {
+              "cell": "9984ba1e-8146-4dbd-bfee-380a0f3c6aba",
+              "port": "0a4b95bc-1f63-4a4f-a8cc-6c739378d3d0"
+            },
+            "vertices": [
+              {
+                "x": 1210,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "16c4cec2-a36f-432b-a96e-8b07c11824c4",
+            "source": {
+              "x": 720,
+              "y": 280
+            },
+            "target": {
+              "cell": "83090897-6bc1-437b-854e-061a39521a3c",
+              "port": "da1aa67e-3217-434e-971a-2857fab82273"
             }
           }
         ]
