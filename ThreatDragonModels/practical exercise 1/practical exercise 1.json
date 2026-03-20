@@ -1904,6 +1904,58 @@
                 "y": 370
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Updated order status",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Updated order status"
+            ],
+            "id": "0f7e0b3e-946a-4607-9e19-d20b41e4f693",
+            "source": {
+              "x": 370,
+              "y": 210
+            },
+            "target": {
+              "cell": "866280d8-a246-47ec-adb9-bbdb4e49129d",
+              "port": "7f4b53aa-71cd-4aa0-af3f-0015334063f9"
+            },
+            "vertices": [
+              {
+                "x": 600,
+                "y": 140
+              }
+            ]
           }
         ]
       },
